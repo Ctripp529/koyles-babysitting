@@ -1,0 +1,129 @@
+
+
+img#asidePic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+figure{
+	margin: 20px auto 0px;
+	width: 100%;
+	height: 100%;
+	
+ }
+ figure img {
+	display: block;
+	width: 100%;
+ }
+ figure figcaption {
+	background-color: white;
+	font-family: "Palatino Linotype", Palatino, "Times New Roman", serif;
+	font-style: italic;
+	padding: 10px 0;
+	text-align: center;
+ }
+
+ /* Filmography Styles */
+
+body > section > article > div#filmography {
+	-webkit-flex: 1 1 320px;
+	flex: 1 1 320px;
+	-webkit-align-self: center;
+	align-self: center;
+ 
+ }
+ body > section > article > div#filmography h1 {
+	text-align: center;
+	color: rgba(51, 51, 51, 0.9);   
+	font-size: 1.8em;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	line-height: 1em;
+	font-weight: normal;
+	margin: 0px 0px 5px 0px;
+ }
+ 
+ body > section > article > div#filmography p {
+	font-size: 0.9em;
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+ }
+ 
+ 
+ /* Table Styles */
+ 
+ table {
+	color: rgb(231, 231, 231);
+	font-size: 20px; 
+	padding: 10px; 
+	height: 500px;   
+	width: 100%;
+ }
+ 
+ table th {
+	font-size: 18px;
+	letter-spacing: 0.2em;
+ }
+ 
+ table td {
+	vertical-align: top;
+	padding: 4px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);   
+	margin: 0px;
+ }
+ 
+ table td a {
+	color: rgb(255, 177, 66);
+ }
+ 
+ table tr td:first-of-type {
+	width: 5px;
+ }
+ 
+ 
+ 
+ /* Marquee Styles */
+
+div#marquee{
+	position: relative;
+	}
+	div#marquee table{
+	   position: absolute;
+	}
+ /* Keyframe Styles */
+  
+@keyframes scroll {
+	0% {top: 250px;}
+   100% {top: -500px;}
+	
+ }
+ 
+ 
+ /* Animation Styles */
+ div#marquee table {
+	animation: scroll 15s linear infinite;
+ }
+ 
+ div#marquee:hover table{
+	animation-play-state: paused;
+ 
+ }
+
+ 
+ /* Navigation */
+
+ 
+ ul.submenu{
+	 display: none;
+	 width: 100%;
+	 list-style: none;
+	 position: absolute;
+
+ }
+ ul.submenu li:hover {
+	 display: block;
+	 background-color: white;
+	 color: navy;
+ }

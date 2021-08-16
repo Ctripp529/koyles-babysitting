@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Tutorial Case
+
+   Tables Style Sheet
+   Author: Cassie Koyle
+   Date:   7/10/2021
+
+   Filename:         dlr_tables.css
+
+*/
+
+/* Table Styles */
+table.schedule{
+   background: white;
+   border-collapse: collapse;
+   font-size: 0.75em;
+   width: 100%;
+}
+
+
+/* Table Cell Styles */
+
+table.schedule th, table.schedule td{
+   border: 1px solid rgba(0, 0, 0, 0.201);
+padding: 5px;
+vertical-align: center;
+}
+/* Row Group Styles */
+table.schedule thead {
+   background: rgba(153, 0, 153, 0.832);
+   color: white;
+   vertical-align: center;
+}
+table.schedule tfoot{
+   background: black;
+   color: white;
+}
+table.schedule thead tr {
+   height: 30px;
+}
+table.schedule tbody tr {
+    color: black;
+   height: 40px;
+ 
+}
+
+/* Column Group Styles */
+
+col#firstCol{
+    vertical-align: center;
+   background: rgb(247, 225, 247);
+width: 16%;
+
+}
+col#dayCols{
+   background: rgb(247,225,247);
+   
+}
