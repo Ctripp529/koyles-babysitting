@@ -82,9 +82,6 @@ article h2 {
     margin-bottom: 12px;
 }
 
-article p {}
-
-main section {}
 
 footer {
     background: #0d1b46;
@@ -189,15 +186,15 @@ div#marquee {
  /* Keyframe Styles */
   
 @keyframes scroll {
-	0% {top: 250px;}
-   100% {top: -500px;}
+	0% {top: 50px;}
+   100% {top: -800px;}
 	
  }
  
  
  /* Animation Styles */
  div#wordList table {
-	animation: scroll 15s linear infinite;
+	animation: scroll 13s linear infinite;
  }
  
  div#wordList:hover table{

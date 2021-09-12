@@ -1,17 +1,16 @@
 window.onload = run;
 function run() {
 
-     bday= 17;
-     bmonth= 0;
-     aday =09;
-     amonth=3;
+     bday=  09;
+     bmonth= 3;
+     
    
 dd = parseInt(bday) + 1;
 console.log(dd);
 mm = parseInt(bmonth) + 1;
 console.log(mm);
-yy = 2020;
-ay= 2021;
+yy = 2021;
+
 
 days = new Date();
 gdate = days.getDate();
@@ -100,8 +99,8 @@ etcdays = Math.round(etcdays * 7);
 weeks = parseInt(weeks);
 etcdays += parseInt(age / 4);           
 if (etcdays > 7) weeks += parseInt(etcdays / 7); 
-toddler= months-12;
-document.getElementById('age').innerHTML += toddler + " months";
+
+document.getElementById('age').innerHTML += months + " months";
 console.log(months);   
 //document.agecalc.timealive.value += "     or " + months + " months old\n";
 //document.agecalc.timealive.value += "     or " + weeks + " weeks old\n";
@@ -171,5 +170,3 @@ else
 return false;
 }
 //  End -->
-
-
