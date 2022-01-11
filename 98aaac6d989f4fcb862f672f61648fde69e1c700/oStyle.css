@@ -187,14 +187,14 @@ div#marquee {
   
 @keyframes scroll {
 	0% {top: 50px;}
-   100% {top: -800px;}
+   100% {top: -400px;}
 	
  }
  
  
  /* Animation Styles */
  div#wordList table {
-	animation: scroll 13s linear infinite;
+	animation: scroll 10s linear infinite;
  }
  
  div#wordList:hover table{
